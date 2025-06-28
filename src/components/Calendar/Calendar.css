@@ -1,0 +1,12 @@
+.custom-calendar {
+  font-size: 1.2rem;       /* Bigger text */
+  width: 100% !important;  /* Expand full width of container */
+  padding: 10px;
+}
+
+.highlight-today {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  border-radius: 50%;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.ddBox {   
+   background: black;
+   color : blue ;
+    height: 400px;
+  width: 500px;
+}
+.ddTitle {
+   display : flex ;
+   justify-content: space-between;
+   padding : 10px ;
+}
+.ddTitle i:hover {
+   cursor: pointer ;
+}
+.ddForm {
+   /* text-align: center ; */
+}
+.ddInput {
+   width : 60% ;
+}
+.ddBtn {
+   width : 80% ;
+
+}

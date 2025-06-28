@@ -1,0 +1,259 @@
+/* .container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #eeeeee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--grey);
+}
+
+.addContact {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.addContact:hover {
+  background-color: var(--green);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+main {
+  padding: 50px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 1rem;
+}
+
+th {
+  background-color: var(--grey);
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tbody tr {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: black;
+}
+
+tbody tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid var(--green);
+  text-align: center;
+  align-content: center;
+}
+
+.nameCell {
+  display: flex;
+  align-items: center;
+}
+
+.actionButton {
+  background-color: var(--green);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.actionButton:hover {
+  background-color: var(--blue);
+}
+
+.modal {
+  display: block ;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modalContent {
+  background-color: var(--light);
+  margin: 15% auto;
+  padding: 2rem;
+  border: 1px solid var(--grey);
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.close {
+  color: var(--dark-grey);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--dark);
+}
+
+#fileInput,
+#newContactForm input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#uploadButton,
+#addContactButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#uploadButton:hover,
+#addContactButton:hover {
+  background-color: var(--green);
+}
+
+.searchContainer {
+  display: flex;
+  margin-bottom: 0px;
+  position: absolute;
+  right: 10px;
+  width: 50%;
+  margin: 50px;
+}
+
+#searchInput {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+#searchBtn {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+  background-color: #2980b9;
+} 
+
+ #searchInput {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--grey);
+            border-radius: 4px;
+            font-size: 1rem;
+        }  
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .add-contact {
+    margin-top: 1rem;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
+  .actionButton {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+*/
+
+.inputFile {
+   display : none ;
+}
+
+.appointmentCard{
+   display : flex ;
+   justify-content: space-evenly;
+}

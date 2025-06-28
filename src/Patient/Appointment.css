@@ -1,0 +1,10 @@
+#ba{
+   margin : 40px ;
+}
+.appointmentLayout {
+   display: flex ;
+   justify-content: center;
+   gap : 200px ;
+}
+.cards {
+}
