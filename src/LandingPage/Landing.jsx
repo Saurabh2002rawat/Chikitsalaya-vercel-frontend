@@ -45,7 +45,7 @@ const Landing = () => {
                     <div className="hero-text">
                         <h1>Take care of your body and it will take care of you.</h1>
                         <p>Talk with our licensed online Consultants. Our line is open 24/7 at very cheap rates.</p>
-                        <button  className="cta-button"><span href="../signinSignup/index.html">Book Your Appointment</span></button>
+                        <button  className="cta-button" onClick = {() => navigate('/patientAuth')}>Book Your Appointment</button>
                     </div>
                     <div className="hero-image">
                         <img src="./dispensaryNITW.gif" alt="Doctors" />
